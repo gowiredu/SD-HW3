@@ -9,11 +9,12 @@ import java.util.ArrayList;
 
 public class Item {
 
-private boolean consumable; //Is this Item consumable (T) or not (F)
+private boolean type; //Is this Item type (T) or not(F)
 private string shortName; 
-private string description ?;
+private string description;
 
-//CONSTRUCTROR
+//CONSTRUCTROR+
+
 public Item( String ? ){
 ? = the?; 
 }
@@ -22,7 +23,10 @@ public Item( String ? ){
 public String toString() {
 String output = new String();
 
-output =  
+output = "shortName" + " : " +  "" + shortName +"\n";  
+output += "type" + " : " + "" + type + "\n";
+output += "description" + " : " + "" + description + "\n"; 
+
 return output; 
 }
 
